@@ -32,7 +32,7 @@ class Solution:
         # TODO: Write code below to return an int with the solution to the prompt
         # result = hi_string.split()
         # return str(result.count("hi"))
-        return hi_string.count('hi')
+        return hi_string.count('hi') + hi_string.count('Hi') + hi_string.count('HI') + hi_string.count('hI')
         pass
 
 def main():
